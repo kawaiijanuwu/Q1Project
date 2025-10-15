@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Q1 Project</title>
+    <link rel="stylesheet" href="styles_Q1Project.css">
+</head>
+<body>
+    <nav class="navbar">
+        <ul>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#works">My Works</a></li>
+            <li><a href="#contact">Contact Me</a></li>
+        </ul>
+    </nav>
+
+    <header class="main-header">
+        <img src="https://scontent.fmnl17-3.fna.fbcdn.net/v/t1.15752-9/552964866_24364812899882177_499954133912925308_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=0024fc&_nc_ohc=LJU154OeKjEQ7kNvwHc2o0p&_nc_oc=AdkePd3vWPxmW8kPhCDx2XMG58uwZ6PZfdAcrON3PjYLWcjtZJtFgid-ONXNWNzvEHc&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent.fmnl17-3.fna&oh=03_Q7cD3QH_rsucEBBIHxEXOBjkEkSlMCb0QTVBWfAz5cPqEqivcQ&oe=690353CD" alt="Profile-img" class="profile-img">
+        <h1>Hello! I'm <span class="highlight">Jan Cabading</span></h1>
+        <p class="subtitle">A Grade 9 student from OB Montessori Center</p>
+    </header>
+
+    <div class="content">
+        <h1 id="about">About My Portfolio</h1>
+        <p class="about-description">
+            My name is Jan Cabading, a Grade 9 student at OBMC High School. One of my subjects is Information and Communications Technology and I have interest in the subject.
+        </p>
+        
+        <h1 id="works">My Works</h1>
+        <div class="my-works">
+            <div class="work-item">
+                <div class="work-image">
+                    <img src="https://i.imgur.com/3agpKxa.png" alt="HTML Form Project">
+                    <p class="caption">My Personal Slambook</p>
+                </div>
+                <div class="work-details">
+                    <ul>
+                        <li>User Inputs</li>
+                        <br>
+                        <li>Forms</li>
+                        <br>
+                        <li>Submit and Reset Buttons</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="work-item">
+                <div class="work-image">
+                    <img src="https://i.imgur.com/P5HOtqN.png" alt="Spotify Songs Project">
+                    <a class="caption" href="https://spotify.com" target="_blank">My Top 3 Favorite Spotify Songs</a>
+                </div>
+                <div class="work-details">
+                    <ul>
+                        <li>Use of Radius</li>
+                        <br>
+                        <li>Background Blur</li>
+                        <br>
+                        <li>Images</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <br><br>
+
+        <a id="contact">Contact Me</a>
+        <br>
+        <div id="form-box">
+            <h2 class="form-title">HTML FORMS</h2>
+            <form action="#">
+                <label for="name1">First Name:</label>
+                <input type="text" id="name1" name="first_name" placeholder="Enter first name...">
+                <br><br>
+
+                <label for="name2">Last Name:</label>
+                <input type="text" id="name2" name="last_name" placeholder="Enter last name...">
+                <br><br>
+
+                <label for="age">Age:</label>
+                <input type="number" id="age" name="age" placeholder="What's your age?">
+                <br><br>
+
+                <p>How did you find me?</p>
+                <label>
+                    <input type="radio" name="where" value="School"> School
+                </label>
+                <label>
+                    <input type="radio" name="where" value="Outside"> Outside School
+                </label>
+                <br><br>
+
+                <label for="comment">Any comments about my portfolio?</label>
+                <br>
+                <textarea id="comment" name="comment" placeholder="Comment here..." rows="4" cols="30"></textarea>
+                <br><br>
+
+                <input type="submit" name="submit" value="Submit">
+                <input type="reset" name="reset" value="Clear All">
+            </form>
+        </div>
+    </div>
+
+    <div class="footer">
+        <p>HTML Owned by Jan Cabading</p>
+    </div>
+
+    <!-- Prompts used: 
+
+    CHATGPT: 
+
+    Why is my nav bar not organized?
+
+    In my works, the texts are not aligned and i have to place the images in one block
+
+    My code is very messy in CSS, and it effects the other styles and ids, fix them.
+
+    -->
+
+</body>
+</html>
